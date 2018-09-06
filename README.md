@@ -9,3 +9,11 @@ edu.jconfのあるディレクトリで
 と入力すると実行できる。
 `ForAnnouncement`は辞書ファイル群で
 `edu.jconf`は設定ファイルである。
+
+edu.jconfの
+```
+-v model/lang_m/bccwj.60k.htkdic
+-h model/phone_m/jnas-tri-3k16-gid.binhmm
+-hlist model/phone_m/logicalTri
+```
+で指定されているmodelフォルダとその内部ファイルは、dictation-kit-v4.4のmodelファイルのことである。
