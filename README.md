@@ -17,3 +17,12 @@ edu.jconfの
 -hlist model/phone_m/logicalTri
 ```
 で指定されているmodelフォルダとその内部ファイルは、dictation-kit-v4.4のmodelフォルダのことである。
+
+## Edu_software
+
+### ver.0.1alpha
+#### 構想
+* Edu.pyはメイン関数系の実装を行なっているのでここから確認してください
+* システムの基盤とする予定のクラスを実装しました
+* タイトル画面としてのTitleクラス群を仮実装しました、Edu.pyよりスレッドによる呼び出しを予定
+* Julius_receiver.pyはEduソフトとjuliusの連結を行う予定。
