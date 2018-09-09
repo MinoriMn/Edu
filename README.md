@@ -27,7 +27,7 @@ edu.jconfの
 * システムの基盤とする予定のクラスを実装しました。詳しくはスプレッドシート上のクラス構想図を参照
 * 起動時のタイトルの管理を行うTitleクラス群を仮実装しました、Edu.pyよりスレッドによる呼び出しをしている。
 * 実装したJulius_receiver.pyではEduソフトとjuliusの連結を行う予定。
-* <span style="color: red; ">起動の際はEdu_softwareフォルダにdictation-kitのmodelフォルダを移植してください。</span>
+* <span style="color: red;">※起動の際はEdu_softwareフォルダにdictation-kitのmodelフォルダを移植してください。</span>
 
 問題点
 
