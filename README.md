@@ -16,4 +16,4 @@ edu.jconfの
 -h model/phone_m/jnas-tri-3k16-gid.binhmm
 -hlist model/phone_m/logicalTri
 ```
-で指定されているmodelフォルダとその内部ファイルは、dictation-kit-v4.4のmodelファイルのことである。
+で指定されているmodelフォルダとその内部ファイルは、dictation-kit-v4.4のmodelフォルダのことである。
