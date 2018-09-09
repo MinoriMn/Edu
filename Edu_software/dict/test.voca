@@ -1,0 +1,44 @@
+% DIR
+右	m i g i
+左	h i d a r i
+上	u e
+下	sh i t a
+% POST_PAR
+を	o
+へ	e
+に	n i
+% VALUE
+0	z e r o
+1	i ch i
+2	n i
+2	n i:
+3	s a N
+4	y o N
+5	g o
+5	g o:
+6	r o k u
+7	n a n a
+7	sh i ch i
+8	h a ch i
+9	ky u u
+9	ky u:
+% UNIT
+度	d o
+秒	by o u
+秒	by o:
+マス	m a s u
+% ORDER
+向く	m u k u
+向け	m u k e
+向いて	m u i t e
+見る	m i r u
+見て	m i t e
+見ろ	m i r o
+% DEGREE
+少し	s u k o sh i
+いっぱい	i q p a i
+もう少し	m o u s u k o sh i
+% NS_B
+[s]	silB
+% NS_E
+[/s]	silE

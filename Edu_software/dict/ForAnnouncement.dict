@@ -1,0 +1,30 @@
+0	[右]	m i g i
+0	[左]	h i d a r i
+0	[上]	u e
+0	[下]	sh i t a
+0	[前]	m a e
+0	[後ろ]	u sh i r o
+1	[を]	o
+1	[へ]	e
+1	[に]	n i
+2	[向く]	m u k u
+2	[向け]	m u k e
+2	[向いて]	m u i t e
+2	[見る]	m i r u
+2	[見て]	m i t e
+2	[見ろ]	m i r o
+2	[進め]	s u s u m e
+2	[下がる]	s a g a r u
+2	[進む]	s u s u m u
+2	[進んで]	s u s u N d e
+3	[実行]	j i q k o u
+3	[スタート]	s u t a: t o
+3	[消す]	k e s u
+3	[消して]	k e sh i t e
+3	[中止]	ch u u sh i
+3	[止まる]	t o m a r u
+3	[止まれ]	t o m a r e
+3	[キャンセル]	ky a N s e r u
+3	[一つ戻る]	h i t o r u m o d o r u
+4	[[s]]	silB
+5	[[/s]]	silE
