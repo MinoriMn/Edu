@@ -20,7 +20,7 @@ edu.jconfの
 
 ## Edu_software
 
-### ver.0.1alpha
+### ver 0.0.1a
 やったこと
 
 * 実装したEdu.pyではメイン関数系の実装を行なっているのでここから確認してください
