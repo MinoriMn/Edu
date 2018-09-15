@@ -20,6 +20,9 @@ edu.jconfの
 
 ## Edu_software
 
+### ver 0.0.1c
+* juliusがfailedするのを修正しました。
+
 ### ver 0.0.1b
 * juliusを安定して動かすことが出来るようになりました。
 * julius用スレッドをJulius_receiver側で持つことで安定させたので、スレッド管理には少し欠けるかも。

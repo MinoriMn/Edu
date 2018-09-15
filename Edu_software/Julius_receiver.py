@@ -13,6 +13,17 @@ def julius_receiver():
     global pid
     global client
 
+    # juliusがすでに起動してないか確認、もし起動して居たらkillコマンド実行
+    try:
+        res = subprocess.check_output(['lsof -i:10500'], shell=True).decode('utf-8')
+        if res != '':
+            pid = res.split('\n')[1].split()[1]
+            print('try to kill the before julius ')
+            subprocess.call(['kill ' + pid], shell=True)
+
+    except subprocess.CalledProcessError as e:
+        print('no julius')
+
     # julius起動スクリプトを実行
     p = subprocess.Popen(["sh julius_start.sh"], stdout=subprocess.PIPE, shell=True)
     pid = p.stdout.read().decode('utf-8')  # juliusのプロセスIDを取得
@@ -58,9 +69,9 @@ def receive():
 
     except KeyboardInterrupt:
         # CTRL+Cで終了
-        print("KeyboardInterrupt occured.")
         p.kill()  #
         subprocess.call(["kill " + pid], shell=True)  # juliusのプロセスを終了
+        print("KeyboardInterrupt occured.")
         client.close()
 
 
