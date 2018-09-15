@@ -21,14 +21,13 @@ def EduStartUp():
     global eduContentMaster
 
     global contentControlThread
-    global displayControlThread
 
     eduDisplayView = TitleDisplayView()
     eduMachineController = TitleMachineController()
     eduContentMaster = TitleContentMaster(display_view=eduDisplayView, machine_controller=eduMachineController)
 
     contentControlThread = threading.Thread(target=ContentControl, name='content_control_thread')
-    displayControlThread = threading.Thread(target=DisplayControl, name='display_control_thread')
+    # displayControlThread = threading.Thread(target=DisplayControl, name='display_control_thread')
 
     # スレッド起動
     _readyThread()
@@ -40,13 +39,14 @@ def EduStartUp():
 # スレッド起動
 def _readyThread():
     contentControlThread.start()
-    displayControlThread.start()
+    # displayControlThread.start()
 
 
 # contentスレッドループ
 def ContentControl():
     while contentControlThreadROOP:
         eduContentMaster.update()
+        eduDisplayView.update() #
         time.sleep(1)
 
 
@@ -66,9 +66,6 @@ def EduExit():
 eduDisplayView = EduDisplayView()
 eduMachineController = EduMachineController()
 eduContentMaster = EduContentMaster(display_view=eduDisplayView, machine_controller=eduMachineController)
-
-contentControlThread = threading.Thread()
-displayControlThread = threading.Thread()
 
 contentControlThreadROOP = True
 displayControlThreadROOP = True

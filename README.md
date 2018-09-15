@@ -20,7 +20,12 @@ edu.jconfの
 
 ## Edu_software
 
-### ver.0.1alpha
+### ver 0.0.1b
+* juliusを安定して動かすことが出来るようになりました。
+* julius用スレッドをJulius_receiver側で持つことで安定させたので、スレッド管理には少し欠けるかも。
+* スレッドが3つになるのはどうかなと思ったので、ContentControlとDisplayControlを一旦統合。
+
+### ver 0.0.1a
 #### 構想
 * Edu.pyはメイン関数系の実装を行なっているのでここから確認してください
 * システムの基盤とする予定のクラスを実装しました
